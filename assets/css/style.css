@@ -28,6 +28,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+#header .logo-scrolled {
+  display: none;
+  background: url("../img/logo2.png");
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -108,6 +113,23 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
+#header .logo {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.img-fluid {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img-fluid2 {
+  position: absolute;
+  top: -0.5px;
+  left: 0.7px;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -137,10 +159,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
-  color: #47536e;
+  color: #156FFF;
   white-space: nowrap;
   transition: 0.3s;
 }
+
+
 
 .navbar a i {
   font-size: 12px;
@@ -148,8 +172,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 
+
+
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
   color: #5777ba;
+    
+}
+
+.navbar .active  {
+    text-decoration: overline;
+
 }
 
 .navbar .getstarted {
@@ -229,6 +261,8 @@ h1, h2, h3, h4, h5, h6 {
     left: -100%;
   }
 }
+
+
 
 /**
 * Mobile Navigation 

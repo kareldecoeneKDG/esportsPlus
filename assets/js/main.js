@@ -89,6 +89,22 @@
     onscroll(document, headerScrolled)
   }
 
+  let selectLogo = select('#logo')
+  if (selectLogo) {
+    const headerScrolled = () => {
+      if (window.scrollY > 100) {
+        selectLogo.classList.add('logo-scrolled')
+      } else {
+        selectLogo.classList.remove('logo-scrolled')
+      }
+    }
+    window.addEventListener('load', headerScrolled)
+    onscroll(document, headerScrolled)
+  }
+    
+    
+    
+
   /**
    * Back to top button
    */
