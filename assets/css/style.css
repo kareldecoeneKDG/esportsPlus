@@ -15,17 +15,18 @@ body {
 }
 
 a {
-  color: #5777ba;
+  color: #156fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #7b94c9;
+  color: #156fff;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+    color: #ffffff;
 }
 
 #header .logo-scrolled {
@@ -104,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #5777ba;
+  color: #156fff;
   text-decoration: none;
 }
 
@@ -328,7 +329,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #5777ba;
+  color: #156fff;
 }
 
 .navbar-mobile .getstarted {
@@ -386,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 200%;
   z-index: -1;
   background-color: #156fff;
-  transform: skewY(135deg);
+  transform: skewY(139deg);
 }
 
 #hero h1 {
@@ -490,7 +491,8 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5777ba;
+  color: #;
+  color: #;
   font-family: "Poppins", sans-serif;
 }
 
@@ -621,6 +623,100 @@ section {
   margin-bottom: 0;
 }
 
+
+/*--------------------------------------------------------------
+# team
+--------------------------------------------------------------*/
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #150517;
+  margin: 0 3px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  background: #156fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+.team .member .social a i {
+  line-height: 0;
+}
+
+.team .member .social a:hover {
+  background: #5777ba;
+}
+
+.team .member .social i {
+  font-size: 18px;
+}
+
+.team .member .member-info {
+  padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #150517;
+text-align: center;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+    text-align: center;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+    
+}
+
+.team .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+
+.team {
+    background: #292829;
+}
+
+
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
@@ -642,11 +738,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5777ba;
+  border: 1px solid #ffffff;
 }
 
 .gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5777ba;
+  background-color: #156fff;
 }
 
 .gallery .swiper-slide-active {
@@ -658,7 +754,7 @@ section {
     padding: 40px 0;
   }
   .gallery .swiper-slide-active {
-    border: 6px solid #5777ba;
+    border: 6px solid #156fff;
     padding: 4px;
     background: #fff;
     z-index: 1;
@@ -865,6 +961,8 @@ section {
   padding: 0 100px;
 }
 
+
+
 .faq .accordion-list ul {
   padding: 0;
   list-style: none;
@@ -922,7 +1020,7 @@ section {
 }
 
 .faq .accordion-list a.collapsed:hover {
-  color: #5777ba;
+  color: #156fff;
 }
 
 .faq .accordion-list a.collapsed .icon-show {
@@ -937,6 +1035,10 @@ section {
   .faq .accordion-list {
     padding: 0;
   }
+}
+
+.faq {
+    background: #292829;
 }
 
 /*--------------------------------------------------------------
@@ -1217,7 +1319,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #5777ba;
+  color: #156fff;
 }
 
 #footer .footer-top .social-links a {
@@ -1260,4 +1362,7 @@ section {
     text-align: center;
     padding: 5px 0;
   }
+}
+#footer {
+    background: #292829;
 }
