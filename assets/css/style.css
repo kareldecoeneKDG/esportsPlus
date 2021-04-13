@@ -549,6 +549,10 @@ section {
 /*--------------------------------------------------------------
 # App Features
 --------------------------------------------------------------*/
+.volgorde p {
+    text-align: justify;
+}
+
 .features .content {
   padding: 30px 0;
 }
@@ -573,6 +577,7 @@ section {
   font-size: 15px;
   color: #979aa1;
   margin-left: 60px;
+    margin-right: 60px;
 }
 
 @media (max-width: 991px) {
@@ -720,6 +725,14 @@ text-align: center;
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+.nieuws {
+    background: #292829;
+}
+
+.album {
+    text-align: justify;
+}
+
 .gallery {
   overflow: hidden;
 }
@@ -1054,7 +1067,7 @@ text-align: center;
 
 .contact .info i {
   font-size: 48px;
-  color: #9fb2d8;
+  color: #156fff;
   margin-bottom: 15px;
 }
 
@@ -1192,14 +1205,14 @@ text-align: center;
 #footer {
   background: #fff;
   padding: 0 0 30px 0;
-  color: #47536e;
+  color: #585a61;
   font-size: 14px;
   background: #eff2f8;
 }
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #eff2f8;
+  background: #292829;
   text-align: center;
   font-size: 15px;
 }
@@ -1210,7 +1223,7 @@ text-align: center;
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #47536e;
+  color: #FFFFFF;
 }
 
 #footer .footer-newsletter form {
@@ -1252,7 +1265,21 @@ text-align: center;
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
+  
+  }
+
+#footer .container {
+    width: 50%;
 }
+
+#footer .row {
+  display: flex;
+justify-content: space-between;
+  
+  }
+
+
+
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
