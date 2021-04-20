@@ -139,6 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navbar {
   padding: 0;
+  margin-right: 200px;
 }
 
 .navbar ul {
@@ -391,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 30px 0;
   font-size: 48px;
   font-weight: 500;
   line-height: 56px;
@@ -400,9 +401,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #515f7d;
+  color: #b2b6bf;
   margin-bottom: 50px;
   font-size: 20px;
+  line-height: 30px;
 }
 
 #hero .download-btn {
@@ -411,11 +413,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   display: inline-block;
   padding: 8px 24px 10px 46px;
-  border-radius: 3px;
+  border-radius: 50px;
   transition: 0.5s;
   color: #fff;
   background: #47536e;
   position: relative;
+  width: 180px;
+  text-align: center;
 }
 
 #hero .download-btn:hover {
@@ -498,6 +502,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  color: #b2b6bf;
 }
 
 /*--------------------------------------------------------------
@@ -564,19 +569,23 @@ section {
 .features .content .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
-  margin: 5px 0 10px 60px;
+  margin: 5px 0 10px 100px;
 }
 
 .features .content .icon-box i {
   font-size: 48px;
   float: left;
   color: #5777ba;
+  background: #b2b6bf;
+  padding: 15px;
+  border-radius: 50px;
+  margin-right: 15px;
 }
 
 .features .content .icon-box p {
   font-size: 15px;
-  color: #979aa1;
-  margin-left: 60px;
+  color: #b2b6bf;
+  margin-left: 100px;
     margin-right: 60px;
 }
 
@@ -721,6 +730,14 @@ text-align: center;
     background: #292829;
 }
 
+.team p {
+  color: #b2b6bf;
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /*--------------------------------------------------------------
 # Gallery
@@ -735,6 +752,14 @@ text-align: center;
 
 .gallery {
   overflow: hidden;
+}
+
+.gallery p {
+  color: #292829;
+}
+
+.gallery #test {
+  color: #b2b6bf;
 }
 
 .gallery .swiper-slide {
@@ -1067,8 +1092,11 @@ text-align: center;
 
 .contact .info i {
   font-size: 48px;
-  color: #156fff;
+  color: #ffffff;
   margin-bottom: 15px;
+  background: #156fff;
+  border-radius: 50px;
+  padding: 15px;
 }
 
 .contact .info h4 {
@@ -1137,7 +1165,7 @@ text-align: center;
 }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
+  border-radius: 25px;
   box-shadow: none;
   font-size: 14px;
 }
@@ -1250,6 +1278,22 @@ text-align: center;
   border: 0;
   background: none;
   font-size: 16px;
+  padding: 0 20px;
+  background: #5777ba;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .footer-newsletter form button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 28px;
   padding: 0 20px;
   background: #5777ba;
   color: #fff;
