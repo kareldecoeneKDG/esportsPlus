@@ -495,8 +495,8 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #;
-  color: #;
+  color: #ffffff;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -798,7 +798,7 @@ text-align: center;
     z-index: 1;
     transform: scale(1.2);
     margin-top: 10px;
-    border-radius: 25px;
+    border-radius: 13px;
   }
 }
 
