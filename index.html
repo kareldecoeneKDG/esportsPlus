@@ -38,14 +38,14 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top  header-transparent ">
-    <div class="container d-flex align-items-center justify-content-between">
+  
+    
+    <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
 
-      <div class="logo">
-        <!--<h1><a href="index.html">Appland</a></h1>-->
-        <a href="index.html"><img src="assets/img/logo2.png" alt="" class="img-fluid"></a>
-        <a href="index.html"><img id="logo" src="assets/img/logo.png" alt="" class="img-fluid2"></a>
-      </div>
+      <h1 class="logo me-auto"><a href="index.html" ><img src="assets/img/logo2.png" class="img-fluid" alt=""></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -60,30 +60,64 @@
       </nav><!-- .navbar -->
 
     </div>
-  </header>
+  </header><!-- End Header -->
     
     <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
-          <div>
-            <h1>Esports+</h1>
-            <h2>Bij E-sports+ streven we ernaar om Telenet de Belgische marktleider van competitief gaming te maken. We willen een hechte vertrouwensrelatie opbouwen met gebruikers door voortdurend te innoveren en snel te kunnen inspelen op trends.</h2>
-            <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
-            <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a>
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide-1.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Esports+</span></h2>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <a href="#features" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ontdek meer!</a>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
-          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
-        </div>
-      </div>
-    </div>
 
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide-2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+               <a href="#features" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ontdek meer!</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide-3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+               <a href="#features" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ontdek meer!</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
   </section><!-- End Hero -->
+
 
   <main id="main">
 
@@ -164,7 +198,12 @@
       
       <section id="download" class="download">
       <div class="container">
-
+          
+          <h2>Download</h2>
+          <p>Download zeker onze applicatie. De overvloed aan features zal er voor zorgen dat je je geen minuut verveelt!</p>
+        </div>
+<a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
+            <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a>
         
       </div>
     </section>
