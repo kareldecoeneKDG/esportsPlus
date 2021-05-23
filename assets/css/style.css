@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 24px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 14px 32px;
@@ -488,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   display: inline-block;
   padding: 8px 24px 10px 46px;
-  border-radius: 50px;
+  border-radius: 4px;
   transition: 0.5s;
   color: #fff;
   background: #156fff;
@@ -1239,7 +1239,7 @@ text-align: center;
 }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 25px;
+  border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
 }
@@ -1257,19 +1257,21 @@ text-align: center;
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #fff;
+  background: #156fff;
   border: 2px solid #156fff;
   padding: 10px 24px;
-  color: #5777ba;
+  color: #ffffff;
   transition: 0.4s;
-  border-radius: 50px;
+  border-radius: 4px;
   margin-top: 5px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #156fff;
+  background: #5777ba;
   color: #fff;
 }
+
+
 
 @media (max-width: 1024px) {
   .contact .php-email-form {
