@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #d9232d;
+  color: #156fff;
 }
 
 .navbar .dropdown:hover > ul {
@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #d9232d;
+  color: #156fff;
 }
 
 .navbar-mobile .getstarted {
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #d9232d;
+  color: #156fff;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -440,6 +440,8 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
+
+
 #hero .carousel-control-next-icon:hover, #hero .carousel-control-prev-icon:hover {
   background: rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.8);
@@ -465,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 24px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 14px 32px;
@@ -482,13 +484,15 @@ h1, h2, h3, h4, h5, h6 {
   background: #5777ba;
 }
 
+
+
 #download .download-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 15px;
   display: inline-block;
   padding: 8px 24px 10px 46px;
-  border-radius: 50px;
+  border-radius: 4px;
   transition: 0.5s;
   color: #fff;
   background: #156fff;
@@ -516,8 +520,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #b2b6bf;
 }
 
+@media (min-width: 404px) {
 #download .download-btn + .download-btn {
   margin-left: 20px;
+}}
+
+
+@media (max-width: 403px) {
+  #download .download-btn {
+    margin: 20px 0px 0px 0px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -679,6 +691,26 @@ section {
   }
 }
 
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.videocontainer {
+    width: 100%;
+    height: auto;
+}
+
 /*--------------------------------------------------------------
 # Details
 --------------------------------------------------------------*/
@@ -807,11 +839,13 @@ text-align: center;
 
 .team p {
   color: #b2b6bf;
-  width: 60%;
+  width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+
+
 
 
 /*--------------------------------------------------------------
@@ -1239,7 +1273,7 @@ text-align: center;
 }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 25px;
+  border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
 }
@@ -1257,19 +1291,21 @@ text-align: center;
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #fff;
+  background: #156fff;
   border: 2px solid #156fff;
   padding: 10px 24px;
-  color: #5777ba;
+  color: #ffffff;
   transition: 0.4s;
-  border-radius: 50px;
+  border-radius: 4px;
   margin-top: 5px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #156fff;
+  background: #5777ba;
   color: #fff;
 }
+
+
 
 @media (max-width: 1024px) {
   .contact .php-email-form {
